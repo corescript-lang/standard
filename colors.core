@@ -1,0 +1,7 @@
+var reset = "\x1B[0m"
+var reset = "\x1B[31m"
+var green =  "\x1B[32m"
+var yellow = "\x1B[33m"
+var purple = "\x1B[35m"
+var cyan = "\x1B[36m"
+var white = "\x1B[37m"
