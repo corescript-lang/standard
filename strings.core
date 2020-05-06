@@ -1,9 +1,9 @@
 function findChar: string char matches
-	var machedCount = 0
+    var machedCount = 0
     var matched = []
 	
-	loop c as string
-		if matchedCount = matches || matchedCount = length: string
-			return matched
-	 	else if string[c] = char
-			add c matched
+        loop c as string
+            if matchedCount = matches || matchedCount = length: string
+                return matched
+            else if string[c] = char
+                add c matched
