@@ -3,7 +3,7 @@ function findChar: string char matches
 	var matched = []
 	
 	loop c as string
-	if matchedCount = matches || matchedCount = length: string
-		return matched
-	 else if string[c] = char
-		add c matched
+		if matchedCount = matches || matchedCount = length: string
+			return matched
+	 	else if string[c] = char
+			add c matched
