@@ -1,6 +1,6 @@
 function findChar: string char matches
 	var machedCount = 0
-	var matched = []
+    var matched = []
 	
 	loop c as string
 		if matchedCount = matches || matchedCount = length: string
