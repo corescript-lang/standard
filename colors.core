@@ -1,3 +1,4 @@
+# For linux
 var reset = "\x1B[0m"
 var reset = "\x1B[31m"
 var green =  "\x1B[32m"
