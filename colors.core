@@ -1,14 +1,22 @@
-# For Linux
+var target = html
+if target = html:html
+if target = linux:linux
+goto endColors
+
+:linux
 var reset = \x1B[31m
 var green =  \x1B[32m
 var yellow = \x1B[33m
 var purple = \x1B[35m
 var cyan = \x1B[36m
 var white = \x1B[37m
+return linux
 
-# For HTML
+:html
 var end = </span>
 var green = <span style='green'>
 var yellow = <span style='yellow'>
 var purple = <span style='purple'>
 var cyan = <span style='cyan'>
+return html
+:endColors
