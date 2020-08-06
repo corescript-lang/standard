@@ -14,9 +14,11 @@ return linux
 
 :html
 var end = </span>
-var green = <span style='green'>
-var yellow = <span style='yellow'>
-var purple = <span style='purple'>
-var cyan = <span style='cyan'>
+var green = <span style='color:green'>
+var yellow = <span style='color:yellow'>
+var purple = <span style='color:purple'>
+var cyan = <span style='color:cyan'>
 return html
 :endColors
+
+print (green)Hello. I have cool (end)(cyan)colors(end).
